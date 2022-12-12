@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
-![ewako-team](/assets/img_ewk.jpg)
+![ewako-team](/assets/img_ewk.png)
 _Ewako 2020_
 
 I'm a Robotics Enthusiast. My works are mainly about embedded systems and robots. I have a bit obsession in writing code especially in robotics and embedded software. My primary programming language is *C++* but I also know *Python*. This site consist of my past and on-going personal projects. Hope it's usefull for anyone reading.
