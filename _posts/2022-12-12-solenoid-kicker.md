@@ -20,7 +20,8 @@ shooting the ball, but most of the robots equipped only with 12-24V batteries. S
 problem is quite clear, how do we get 400V stored in a *Capacitor Bank* from 12-24V
 batteries in a short time window.
 
-In order to tackle the problem, I've designed a prototype that potentially could resolved
+### Overall Design
+In order to tackle the problem, I've designed a prototype that could potentially resolve
 the issue. This design consists of three main parts which are a **DC to DC Step Up
 Converter**, a **Trigger Circuit** and a **Discharge Circuit**. The discharge circuit is
 included so that when the battery power goes out, the *Capacitor Bank* could be safely
@@ -28,4 +29,17 @@ discharged through the circuit.
 
 ![block-diagram](/assets/solenoid_kicker/diag_solenoid_kicker.drawio.png "Diagram")
 _Overall System Diagram_
+
+### Solenoid Design
+TO-DO
+
+### Step Up DC Voltage Converter
+TO-DO
+
+### Trigger Circuit
+TO-DO
+
+### Discharge Circuit
+TO-DO
+
 
