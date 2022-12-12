@@ -28,7 +28,7 @@ Converter**, a **Trigger Circuit** and a **Discharge Circuit**. The discharge ci
 included so that when the battery power goes out, the *Capacitor Bank* could be safely
 discharged through the circuit.
 
-![block-diagram](/assets/solenoid_kicker/diag_solenoid_kicker.drawio.png "Diagram")
+![block-diagram](/assets/solenoid_kicker/diag_solenoid_kicker.drawio.png "Diagram"){: w="480"}
 _Overall System Diagram_
 
 There are quite a lot to cover from this design so I'm not going into great details about
@@ -41,7 +41,7 @@ small and not suitable for the kind of stroking power that we need. So I designe
 custom solenoid that will fit in most robots but still has big stroking power to shoot
 a ball with 400 grams of weight.
 
-![solenoid-design](/assets/solenoid_kicker/solenoid_design.png "Solenoid Design")
+![solenoid-design](/assets/solenoid_kicker/solenoid_design.png "Solenoid Design"){: w="480"}
 _Solenoid Design_
 
 The wire used in this design needs to be able to withstand a huge amount of electric current 
@@ -64,7 +64,7 @@ There are many ways one can convert DC voltage. But for this application, I choo
 a Mazzilli's Flyback Driver because of it's efficiency and ability to deliver huge amount 
 of power.
 
-![flyback-driver](/assets/solenoid_kicker/flyback_driver.png "Mazzilli's Flyback Driver")
+![flyback-driver](/assets/solenoid_kicker/flyback_driver.png "Mazzilli's Flyback Driver"){: w="480"}
 _Mazzilli's Flyback Driver_
 
 The two MOSFETs I used in this circuit are IRFP250. I chose this type of MOSFET because of
@@ -76,7 +76,7 @@ The trigger circuit is kind of a no brainer. All I need is just an output interf
 can withstand a huge amount of current in a fraction of a second. I've seen some design 
 use an SCR for this purpose but I decided to go with a IGBT for simplicity.
 
-![trigger-circuit](/assets/solenoid_kicker/trigger_circuit.png "Trigger Circuit")
+![trigger-circuit](/assets/solenoid_kicker/trigger_circuit.png "Trigger Circuit"){: w="480"}
 _Trigger Circuit_
 
 ### Discharge Circuit
@@ -90,7 +90,7 @@ harm in the future for the people who is unaware of the potential damage.
 For that, I embedded a safety discharge circuit that would turn on when the battery power
 goes out. It just need some simple electronics magic with transistors.
 
-![discharge-circuit](/assets/solenoid_kicker/discharge_circuit.png "Discharge Circuit")
+![discharge-circuit](/assets/solenoid_kicker/discharge_circuit.png "Discharge Circuit"){: w="480"}
 _Discharge Circuit_
 
 ### Final PCB Design
@@ -98,6 +98,6 @@ All the schematic capture and the board layout design for the electronic parts o
 project is done using KiCAD. And finally, after a few weeks of designing, I came up with 
 the following result.
 
-![board-view](/assets/solenoid_kicker/solenoid_kicker_board.png "Board 3D View")
+![board-view](/assets/solenoid_kicker/solenoid_kicker_board.png "Board 3D View"){: w="480"}
 _Board 3D View_
 
