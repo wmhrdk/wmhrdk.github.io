@@ -27,6 +27,9 @@ Converter**, a **Trigger Circuit** and a **Discharge Circuit**. The discharge ci
 included so that when the battery power goes out, the *Capacitor Bank* could be safely
 discharged through the circuit.
 
+![block-diagram](/assets/solenoid_kicker/diag_solenoid_kicker.drawio.png "Diagram")
+_Overall System Diagram_
+
 ### Solenoid Design
 TO-DO
 
