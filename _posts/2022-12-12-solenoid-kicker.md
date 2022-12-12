@@ -1,7 +1,6 @@
 ---
 title: Magnetic Based Kicker Design for Indonesian Robotics Contest
 date: 2022-12-12 12:27:00 +0800
-subtitle: About
 categories: [Electronics]
 tags: [electronics, hardware, actuator]
 ---
